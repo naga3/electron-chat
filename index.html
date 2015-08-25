@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>electron chat</title>
+<script>
+window.$ = require("jquery");
+$(function() {
+  var socket = require('socket.io-client')('http://localhost:3000');
+  $('form').submit(function() {
+    socket.emit('msg', $('input').val());
+    $('input').val('');
+    return false;
+  });
+  socket.on('msg', function(data) {
+    $('div').prepend(data + '<br>');
+  });
+});
+</script>
+<form><input></form><div></div>
