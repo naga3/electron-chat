@@ -20,3 +20,5 @@ node server
 ```
 electron .
 ```
+
+Please be multiple boot.
