@@ -2,6 +2,8 @@
 
 ## Install
 
+![SS](https://raw.githubusercontent.com/wiki/naga3/electron-chat/ss.gif)
+
 ```
 npm -g install electron-prebuilt
 git clone https://github.com/naga3/electron-chat.git
