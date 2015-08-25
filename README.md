@@ -1,8 +1,8 @@
 # Electron chat sample with jQuery
 
-## Install
+![](https://raw.githubusercontent.com/wiki/naga3/electron-chat/ss.gif)
 
-![SS](https://raw.githubusercontent.com/wiki/naga3/electron-chat/ss.gif)
+## Install
 
 ```
 npm -g install electron-prebuilt
