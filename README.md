@@ -5,7 +5,6 @@
 ## Install
 
 ```
-npm -g install electron-prebuilt
 git clone https://github.com/naga3/electron-chat.git
 cd electron-chat
 npm install
@@ -20,7 +19,7 @@ node server
 ## Start client
 
 ```
-electron .
+npm run chat
 ```
 
 Please be multiple boot.
